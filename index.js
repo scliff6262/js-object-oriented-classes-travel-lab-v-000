@@ -17,7 +17,7 @@ class Route {
 
   convertToNumbers(obj){
     let numberValues = {}
-    switch(horizontal){
+    switch(obj.horizontal){
       case horizontal.includes('1st'):
         numberValues["horizontal"] = 1
         break;
