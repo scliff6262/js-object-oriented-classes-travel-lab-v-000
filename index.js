@@ -44,5 +44,4 @@ class Route {
     return numberValues
   }
 
-  blocksTravelled()
 }
