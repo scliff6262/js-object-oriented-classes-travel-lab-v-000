@@ -5,6 +5,6 @@ class Driver {
   }
 
   startDate(){
-    return Date.parse(this.date)
+    return new Date(this.date)
   }
 }
