@@ -28,17 +28,17 @@ class Route {
         numberValues["horizontal"] = 3
         break;
       case horizontal.includes('Lexington'):
-        break;
         numberValues["horizontal"] = 4
+        break;
       case horizontal.includes('Park'):
-        break;
         numberValues["horizontal"] = 5
+        break;
       case horizontal.includes('Madison'):
-        break;
         numberValues["horizontal"] = 6
-      case horizontal.includes('5th'):
         break;
+      case horizontal.includes('5th'):
         numberValues["horizontal"] = 7
+        break;
     }
   }
   blocksTravelled()
