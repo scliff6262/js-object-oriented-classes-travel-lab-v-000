@@ -42,5 +42,6 @@ class Route {
     }
     numberValues["vertical"] = parseInt(obj.vertical)
   }
+  
   blocksTravelled()
 }
