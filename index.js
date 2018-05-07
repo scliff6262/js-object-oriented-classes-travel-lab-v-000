@@ -14,4 +14,10 @@ class Route {
     this.beginningLocation = beginningLocation
     this.endingLocation = endingLocation
   }
+
+  convertToNumbers(horizonal, vertical){
+    numberValue
+    switch()
+  }
+  blocksTravelled()
 }
