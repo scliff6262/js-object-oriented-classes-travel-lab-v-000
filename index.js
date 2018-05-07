@@ -19,7 +19,7 @@ class Route {
     let numberValues = {}
     switch(horizontal){
       case horizontal.includes('1st Avenue')
-      numberValues
+      numberValues.horizontal = 1
     }
   }
   blocksTravelled()
