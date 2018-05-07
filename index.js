@@ -1,6 +1,10 @@
 class Driver {
   constructor(name, date){
     this.name = name
-    this.date = Date.parse(date)
+    this.date = date
+  }
+
+  startDate(){
+    Date.parse(this.date)
   }
 }
