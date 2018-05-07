@@ -28,12 +28,16 @@ class Route {
         numberValues["horizontal"] = 3
         break;
       case horizontal.includes('Lexington'):
+        break;
         numberValues["horizontal"] = 4
       case horizontal.includes('Park'):
+        break;
         numberValues["horizontal"] = 5
       case horizontal.includes('Madison'):
+        break;
         numberValues["horizontal"] = 6
       case horizontal.includes('5th'):
+        break;
         numberValues["horizontal"] = 7
     }
   }
