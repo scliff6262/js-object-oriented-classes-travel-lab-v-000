@@ -52,7 +52,7 @@ class Route {
     }
 
     estimatedTime(peak = false){
-    return   peak ? this.blocksTravelled() / 2 : this.blocksTravelled() / 3
+    return peak ? this.blocksTravelled() / 2 : this.blocksTravelled() / 3
     }
 
 }
