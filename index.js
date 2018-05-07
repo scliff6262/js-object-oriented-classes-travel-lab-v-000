@@ -24,7 +24,11 @@ class Route {
       case horizontal.includes('2nd Avenue')
         numberValues["horizontal"] = 2
         break;
-      case
+      case horizontal.includes('3rd Avenue')
+        numberValues["horizontal"] = 3
+        break;
+      case horizontal.includes('Lexington')
+        numberValues["horizontal"] = 4
     }
   }
   blocksTravelled()
