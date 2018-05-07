@@ -46,5 +46,6 @@ class Route {
 
     blocksTravelled(){
       start = convertToNumbers(this.beginningLocation)
+      finish = convertToNumbers(this.endingLocation)
     }
 }
