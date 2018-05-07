@@ -45,10 +45,10 @@ class Route {
   }
 
     blocksTravelled(){
-      start = convertToNumbers(this.beginningLocation)
-      finish = convertToNumbers(this.endingLocation)
+      start = this.convertToNumbers(this.beginningLocation)
+      finish = this.convertToNumbers(this.endingLocation)
 
-      debugger
+      debugger;
       return (Math.abs(start.horizontal - finish.horizontal)) + (Math.abs(start.vertical - finish.vertical))
     }
 }
