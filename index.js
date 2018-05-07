@@ -40,7 +40,7 @@ class Route {
         numberValues["horizontal"] = 7
         break;
     }
-
+    numberValues["vertical"] = parseInt(obj.vertical)
   }
   blocksTravelled()
 }
