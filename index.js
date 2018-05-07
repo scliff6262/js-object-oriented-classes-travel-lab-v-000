@@ -5,6 +5,6 @@ class Driver {
   }
 
   startDate(){
-    return IPdate(Date.parse(this.date))
+    return IPOdate.setTime(Date.parse(this.date))
   }
 }
