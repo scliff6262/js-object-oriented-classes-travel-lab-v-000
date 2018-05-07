@@ -15,7 +15,7 @@ class Route {
     this.endingLocation = endingLocation
   }
 
-  convertToNumbers(horizontal, vertical){
+  convertToNumbers(obj){
     let numberValues = {}
     switch(horizontal){
       case horizontal.includes('1st'):
@@ -40,6 +40,7 @@ class Route {
         numberValues["horizontal"] = 7
         break;
     }
+
   }
   blocksTravelled()
 }
