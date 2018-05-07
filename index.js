@@ -50,4 +50,6 @@ class Route {
 
       return (Math.abs(start.horizontal - finish.horizontal)) + (Math.abs(start.vertical - finish.vertical))
     }
+
+    estimatedTime(peak = false)
 }
