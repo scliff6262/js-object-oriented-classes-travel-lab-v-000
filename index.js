@@ -15,9 +15,12 @@ class Route {
     this.endingLocation = endingLocation
   }
 
-  convertToNumbers(horizonal, vertical){
-    numberValue
-    switch()
+  convertToNumbers(horizontal, vertical){
+    let numberValues = {}
+    switch(horizontal){
+      case horizontal.includes('1st Avenue')
+      numberValues
+    }
   }
   blocksTravelled()
 }
