@@ -18,10 +18,10 @@ class Route {
   convertToNumbers(obj){
     let numberValues = {}
     switch(obj.horizontal){
-      case obj.horizontal.includes('1st'):
+      case '1st Avenue':
         numberValues["horizontal"] = 1
         break;
-      case obj.horizontal.includes('2nd'):
+      case '2nd Avenue':
         numberValues["horizontal"] = 2
         break;
       case obj.horizontal.includes('3rd'):
