@@ -18,17 +18,23 @@ class Route {
   convertToNumbers(horizontal, vertical){
     let numberValues = {}
     switch(horizontal){
-      case horizontal.includes('1st Avenue'):
+      case horizontal.includes('1st'):
         numberValues["horizontal"] = 1
         break;
-      case horizontal.includes('2nd Avenue'):
+      case horizontal.includes('2nd'):
         numberValues["horizontal"] = 2
         break;
-      case horizontal.includes('3rd Avenue'):
+      case horizontal.includes('3rd'):
         numberValues["horizontal"] = 3
         break;
       case horizontal.includes('Lexington'):
         numberValues["horizontal"] = 4
+      case horizontal.includes('Park'):
+        numberValues["horizontal"] = 5
+      case horizontal.includes('Madison'):
+        numberValues["horizontal"] = 6
+      case horizontal.includes('5th'):
+        numberValues["horizontal"] = 7
     }
   }
   blocksTravelled()
