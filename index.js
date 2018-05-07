@@ -33,10 +33,10 @@ class Route {
       case "Park":
         numberValues["horizontal"] = 5
         break;
-      case obj.horizontal.includes('Madison'):
+      case "Madison":
         numberValues["horizontal"] = 6
         break;
-      case obj.horizontal.includes('5th'):
+      case "5th Avenue":
         numberValues["horizontal"] = 7
         break;
     }
