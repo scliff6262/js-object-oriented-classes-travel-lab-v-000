@@ -41,6 +41,7 @@ class Route {
         break;
     }
     numberValues["vertical"] = parseInt(obj.vertical)
+    return numberValues
   }
 
   blocksTravelled()
