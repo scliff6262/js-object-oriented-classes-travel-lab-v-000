@@ -24,7 +24,7 @@ class Route {
       case '2nd Avenue':
         numberValues["horizontal"] = 2
         break;
-      case obj.horizontal.includes('3rd'):
+      case "3rd Avenue":
         numberValues["horizontal"] = 3
         break;
       case obj.horizontal.includes('Lexington'):
